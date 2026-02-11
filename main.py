@@ -25,8 +25,9 @@ from fake_useragent import UserAgent
 from faker import Faker
 from telegram import (
     InlineKeyboardButton, InlineKeyboardMarkup, Update,
-    ParseMode, Bot
+    Bot
 )
+from telegram.constants import ParseMode
 from telegram.ext import (
     Application, CommandHandler, CallbackQueryHandler,
     MessageHandler, filters, ContextTypes
