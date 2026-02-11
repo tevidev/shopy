@@ -34,8 +34,7 @@ from telegram.ext import (
 )
 
 # Import our enhanced checker
-from shopify_checker import ShopifyGatewayChecker
-from config import *
+from shopify_checker import ShopifyGatewayChecker *
 
 # Initialize colorama and disable SSL warnings
 init(autoreset=True)
